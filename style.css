@@ -1,0 +1,21 @@
+.summary{
+    color: #219B9D;
+    font-size: 30px;
+}
+
+p{
+    font-size: 18px;
+}
+
+body{
+    background: lightgray;
+}
+
+.box {
+    background: white;
+    margin-top:80px;
+    padding: 10px;
+    align-content: center;
+    border-radius: 25px;
+    border: 2px solid #219B9D;
+  }
