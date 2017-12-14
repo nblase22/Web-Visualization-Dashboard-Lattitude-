@@ -13,10 +13,10 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <div class = "container">
+    <div class = "container-fluid">
       <!--header row navbar -->
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #219B9D;">
-          <a class="navbar-brand" href="#">Latitude</a>
+          <a class="navbar-brand" href="./index.html">Latitude</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -33,24 +33,22 @@
                   Visualizations
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="./visualization1.html">Vis 1</a>
-                  <a class="dropdown-item" href="./visualization2.html">Vis 2</a>
-                  <a class="dropdown-item" href="./visualization3.html">Vis 3</a>
-                  <a class="dropdown-item" href="./visualization4.html">Vis 4</a>
+                  <a class="dropdown-item" href="./visualization1.html">Lat. vs. Max Temperature</a>
+                  <a class="dropdown-item" href="./visualization2.html">Lat. vs. Humidity</a>
+                  <a class="dropdown-item" href="./visualization3.html">Lat. vs. Cloudiness</a>
+                  <a class="dropdown-item" href="./visualization4.html">Lat. vs. Wind Speed</a>
                 </div>
               </li>
             </ul>
           </div>
         </nav>
+        
         <div class="row">
-          <div class="col-md-12"></div>
-        </div>
-        <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-8 col-sm-8 col-xs-8 col-lg-8">
               <div class="box">
                 <h1 class="summary">Summary: Latitude vs. X</h1>
                 <hr>
-                <p><img src="./output_data/Fig1.png" alt="Latitude vs. Max Temperature" height="200" width="200" align="left">
+                <p><img src="./output_data/Fig1.png" alt="Latitude vs. Max Temperature" height="300" width="300" align="left">
                 The purpose of this project was to analyze how weather changes as you get closer to the equater. To accomplish this analysis,
                   we first pulled data from the OpenWeatherMapAPI to assemble a dataset on over 500 cities
                 </p>
@@ -61,7 +59,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4">
               <div class="box">
                 <h1 class="summary">Visualizations</h1>
                 <hr>
